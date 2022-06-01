@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> [Interest] Arknights Contact </title>
+
+        <!-- JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- JavaScript File -->
+        <script src="js/external.js"></script>
+
+        <!-- Media query for narrow browser width -->
+        <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+        <!-- Media query for medium browser width -->
+        <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+        <!-- Media query for full browser width -->
+        <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+
+        <!-- Prevent smartphones from scaling pages down -->
+        <meta name="viewport" content="initial-scale=1">
+
+        <style></style>
+    </head>
+
+    <body>
+        <header id = "contactHeader">
+            <!-- NAVIGATION BAR -->
+            <nav>
+                <div id = "navLogo">
+                    <img src = "images/logo_2.png"/>
+                </div>
+                <div id = "nav-right">
+                    <ul>
+                        <li>
+                            <a href = "index.html">
+                                <img src = "images/home_black_36dp.svg" class = "svgWhite"/>
+                                <p>Home</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "characters.html">
+                                <img src = "images/people_alt_black_36dp.svg" class = "svgWhite"/>
+                                <p>Characters</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "contact.html">
+                                <img src = "images/contact_mail_black_36dp.svg" class = "svgWhite"/>
+                                <p>Contact</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- HEADER CONTENT -->
+            <div id = "display">
+                <h1 id = "title"> Contact </h1>
+                <div id = "sub">
+                    <p> 
+                        Get in contact with the support team for Arknights here or through the 
+                        in-game customer support.
+                    </p>
+                </div>
+            </div>
+
+            <div id = "jumpDown">
+                <a href="#contactSection"><img src = "images/keyboard_arrow_down_black_36dp.svg" class = "svgWhite"/></a>
+            </div>
+        </header>
+
+        <section id = "contactSection">
+            <!-- CONTACT CARD SECTION -->
+            <div id = "contactContainer">
+                <!-- CONTACT CARD -->
+                <div id = "contactCard">
+                    <!-- CONTACT CARD CONTENT -->
+                    <div id = "contactCardContent">
+                        <!-- CONTACT FORM (LEFTSIDE) -->
+                        <div id = "contactForm">
+                            <form action="contact.html" method="POST" autocomplete="off">
+                                <input type="text" placeholder="Name" name="name"/>
+                                <label for="name" class="error"></label> <!-- JS EDITED - FOR ERROR -->
+
+                                <input type="text" placeholder="UID" name="uid"/>
+                                <label for="uid" class="error"></label> <!-- JS EDITED - FOR ERROR -->
+
+                                <input type="text" placeholder="Email Address" name="email"/>
+                                <label for="email" class="error"></label> <!-- JS EDITED - FOR ERROR -->
+
+                                <textarea rows="5" placeholder="Enter Your Message..." name="message"></textarea>
+                                <label for="message" class="error"></label> <!-- JS EDITED - FOR ERROR -->
+
+                                <div id = "formButtons">
+                                    <input type="submit"/>
+                                    <input type="reset"/>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- CONTACT SIDE (RIGHTSIDE) -->
+                        <div id = "contactSide">
+                            <div id = "contactSideContent">
+                                <!-- <img src = "http://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png"/> -->
+                                <div id = "contactImg">
+                                    <img src = "images/Penguin_Logistics_Black.png" class = "svgWhiteShadow"/>
+                                </div>
+                                <div id = "contactText">
+                                    <p id = "contactTextSub">
+                                        Your message will be delivered on time to the Arknights CS Department
+                                    </p>
+                                    
+                                    <table>
+                                        <tr>
+                                            <td class = "contactTableIcon">
+                                                <img src = "images/alternate_email_black_24dp.svg" class = "svgWhite"/>
+                                            </td>
+                                            <td class = "contactTableInfo"> arknights.en.cs@yo-star.com </td>
+                                        </tr>
+                                        <tr>
+                                            <td class = "contactTableIcon">
+                                                <img src = "images/map_black_24dp.svg" class = "svgWhite"/>
+                                            </td>
+                                            <td class = "contactTableInfo">
+                                                Headquarters <br/>
+                                                Changhui Mansion (799 Yinxiang Road), Nanxiang Street, 
+                                                Jiading District, Shanghai, China
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <!-- LEFTSIDE FOOTER (COMPANY) -->
+            <div id = "company">
+				<!-- <h3> Company </h3> -->
+                <img src = "https://static.wikia.nocookie.net/logopedia/images/6/62/HyperGryph_Logo.png" class = "svgWhite"/>
+				<hr>
+				<div id = "subtext">
+					<p>
+                        Based in Shanghai, China.
+                        <br/>
+                        Copyright 2022
+                    </p>
+				</div>
+			</div>
+
+            <!-- RIGHTSIDE FOOTER (SOCIAL MEDIA) -->
+            <div id = "socmedia">
+				<p>Social Media</p>
+				<div id = "socmediaIcons">
+					<a href="https://www.facebook.com/ArknightsGlobal/" target="_blank">
+						<img src="https://hrl.uncg.edu/uncgrha/wp-content/uploads/sites/83/2018/02/Facebook-PNG-Image-38915.png"/>
+					</a>
+	
+					<a href="https://www.instagram.com/arknights_messenger_official/" target="_blank">
+						<img src="https://freepngimg.com/thumb/instagram/62705-logo-sticker-computer-instagram-icons-download-hd-png.png"/>
+					</a>
+	
+					<a href="https://twitter.com/ArknightsEN" target="_blank">
+						<img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"/>
+					</a>
+	
+					<a href="https://www.youtube.com/channel/UCR0J2NYGuC8epsa1O4DMmXQ" target="_blank">
+						<img src="https://freepngimg.com/thumb/youtube/77799-logo-youtube-icon-png-file-hd.png"/>
+					</a>
+				</div>
+			</div>
+        </footer>
+    </body>
+</html>
