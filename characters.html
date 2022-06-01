@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> [Interest] Arknights Characters </title>
+
+        <!-- JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- JavaScript File -->
+        <script src="js/external.js"></script>
+
+
+        <!-- Media query for narrow browser width -->
+        <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+        <!-- Media query for medium browser width -->
+        <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+        <!-- Media query for full browser width -->
+        <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+
+        <!-- Prevent smartphones from scaling pages down -->
+        <meta name="viewport" content="initial-scale=1">
+
+        <style></style>
+    </head>
+
+    <body>
+        <header id = "charHeader">
+            <!-- NAVIGATION BAR -->
+            <nav>
+                <div id = "navLogo">
+                    <img src = "images/logo_2.png"/>
+                </div>
+                <div id = "nav-right">
+                    <ul>
+                        <li>
+                            <a href = "index.html">
+                                <img src = "images/home_black_36dp.svg" class = "svgWhite"/>
+                                <p>Home</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "characters.html">
+                                <img src = "images/people_alt_black_36dp.svg" class = "svgWhite"/>
+                                <p>Characters</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "contact.html">
+                                <img src = "images/contact_mail_black_36dp.svg" class = "svgWhite"/>
+                                <p>Contact</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- HEADER CONTENT -->
+            <div id = "display">
+                <!-- <h1 id = "title"> Characters </h1> -->
+                <div id = "title">
+                    <img src = "images/HUMAN RESOURCE DEPARTMENT_Black_Editted.png" class = "svgWhite"/>
+                </div>
+                <div id = "sub">
+                    <a href = "#guards">
+                        <div class = "typeLink">
+                            <img src = "images/guard_Black.png" class = "svgWhite"/>
+                            <div><p> Guards </p></div>
+                        </div>
+                    </a>
+                    <a href = "#vanguards">
+                        <div class = "typeLink">
+                            <img src = "images/vanguard_Black.png" class = "svgWhite"/>
+                            <div><p> Vanguards </p></div>
+                        </div>
+                    </a>
+                    <a href = "#defenders">
+                        <div class = "typeLink">
+                            <img src = "images/defender_Black.png" class = "svgWhite"/>
+                            <div><p> Defenders </p></div>
+                        </div>
+                    </a>
+                    <a href = "#medics">
+                        <div class = "typeLink">
+                            <img src = "images/medic_Black.png" class = "svgWhite"/>
+                            <div><p> Medics </p></div>
+                        </div>
+                    </a>
+                    <a href = "#snipers">
+                        <div class = "typeLink">
+                            <img src = "images/sniper_Black.png" class = "svgWhite"/>
+                            <div><p> Snipers </p></div>
+                        </div>
+                    </a>
+                    <a href = "#casters">
+                        <div class = "typeLink">
+                            <img src = "images/caster_Black.png" class = "svgWhite"/>
+                            <div><p> Casters </p></div>
+                        </div>
+                    </a>
+                    <a href = "#supporters">
+                        <div class = "typeLink">
+                            <img src = "images/supporter_Black.png" class = "svgWhite"/>
+                            <div><p> Supporters </p></div>
+                        </div>
+                    </a>
+                    <a href = "#specialists">
+                        <div class = "typeLink">
+                            <img src = "images/specialist_Black.png" class = "svgWhite"/>
+                            <div><p> Specialists </p></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id = "charSection">
+            <!-- GUARDS SECTION -->
+            <div class = "type darkBkg" id = "guards">
+                <!-- BANNER -->
+                <div class = "typeHeader">
+                    <p class = "typeBanner">GUARD</p>
+                    <p class = "typeDescription">
+                        High DPS output operators with high HP and ATK. 
+                        Often have good synergy with other classes, 
+                        especially Defenders who can block the most enemies.
+                        However, most Guards have a lack of base RES, 
+                        so they're especially vulnerable to Arts-damage dealing enemies.
+                    </p>
+                </div>
+
+                <!-- CARDS -->
+                <div class = "charCardsContainer">
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_293_thorns_2.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>幻象黑兔</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Thorns </p>
+                                        <p class = "charSub"> Ranged/Lord </p>
+                                        <p class = "charSub"> ☆☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Thorns, Guard Operator of Rhodes Island, wastes not an ounce of energy, calculating each strike meticulously.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            He'll cooperate according to his own interpretation of the commands.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Can launch Ranged Attacks that deal 80% of normal ATK
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Melee </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Physical Damage </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> DPS </p>
+                                            <p> Defense </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_140_whitew_boc1.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>幻象黑兔</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Lappland </p>
+                                        <p class = "charSub"> Ranged/Lord </p>
+                                        <p class = "charSub"> ☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Operator Lappland can't wait to slash apart the enemies in front of her.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            Just pray. Pray that she will listen to your orders.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Can launch Ranged Attacks that deal 80% of normal ATK
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Melee </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Physical Damage </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> DPS </p>
+                                            <p> Debuff </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- VANGUARDS SECTION -->
+            <div class = "type darkerBkg" id = "vanguards">
+                <!-- BANNER -->
+                <div class = "typeHeader">
+                    <p class = "typeBanner">VANGUARD</p>
+                    <p class = "typeDescription">
+                        Relatively low DP cost. Generally the first to be deployed in a battle as they 
+                        have the ability to generate DP from either waiting (skill) or by killing enemies.
+                    </p>
+                </div>
+
+                <!-- CARDS -->
+                <div class = "charCardsContainer">
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_102_texas_epoque%237.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>幻象黑兔</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Texas </p>
+                                        <p class = "charSub"> Skill-DP/Pioneer </p>
+                                        <p class = "charSub"> ☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Texas, employee of Penguin Logistics, will give the squad a tactical advantage with her Originium Arts at the start of every battle.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            You can trust her with your cargo.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Blocks 2 enemies
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt, Recruitment, Pinboard Mission Reward </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Melee </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Physical Damage </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> DP-Recovery </p>
+                                            <p> Crowd-Control </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- CARD -->
+
+                </div>
+            </div>
+
+
+            <!-- DEFENDERS SECTION -->
+            <div class = "type darkBkg" id = "defenders">
+                <!-- BANNER -->
+                <div class = "typeHeader">
+                    <p class = "typeBanner">DEFENDER</p>
+                    <p class = "typeDescription">
+                        High survivability operators with high HP and DEF. 
+                        Most defenders can block up to three enemies.
+                    </p>
+                </div>
+
+                <!-- CARDS -->
+                <div class = "charCardsContainer">
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2020-12/SariaMansfieldBreakSkin.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>NoriZC</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Saria </p>
+                                        <p class = "charSub"> Healing/Guardian </p>
+                                        <p class = "charSub"> ☆☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Saria, former researcher of Rhine Lab, will serve as a core part of the squad's defense and healing unit on the battlefield.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            Diamond is more flexible than she is.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Can heal allies by using the skill
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt, Recruitment </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Melee </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Physical Damage </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> Healing </p>
+                                            <p> Defense </p>
+                                            <p> Support </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+
+                </div>
+                
+            </div>
+
+
+            <!-- MEDICS SECTION -->
+            <div class = "type darkerBkg" id = "medics">
+                <!-- BANNER -->
+                <div class = "typeHeader">
+                    <p class = "typeBanner">MEDIC</p>
+                    <p class = "typeDescription">
+                        Restores the HP of friendly ally units equal to their attack. Medics have low HP and DEF, and 
+                        they cannot attack enemies.
+                    </p>
+                </div>
+
+                <!-- CARDS -->
+                <div class = "charCardsContainer">
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2021-01/char_108_silent_winter%232.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>NoriZC</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Silence </p>
+                                        <p class = "charSub"> ST/Medic </p>
+                                        <p class = "charSub"> ☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Silence, medical specialist of Rhine Lab, will make use of the latest scientific developments on the battlefield.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            There's no risk in the fruits of research, as they are only byproducts after all. Experimentation, on the other hand...
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Restores the HP of allies
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt, Recruitment </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Ranged </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Healing </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> Healing </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+
+                </div>
+            </div>
+
+
+            <!-- SNIPERS SECTION -->
+            <div class = "type darkBkg" id = "snipers">
+                 <!-- BANNER -->
+                 <div class = "typeHeader">
+                    <p class = "typeBanner">SNIPER</p>
+                    <p class = "typeDescription">
+                        Does ranged attacks. Usually have low DP cost compared to other operator classes, 
+                        but generally has higher DP cost than Vanguards. They also generally have low HP and DEF.
+                    </p>
+                </div>
+
+                <!-- CARDS -->
+                <div class = "charCardsContainer">
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinKFC.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>幻象黑兔</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Exusiai </p>
+                                        <p class = "charSub"> Anti-Air/Marksman </p>
+                                        <p class = "charSub"> ☆☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Exusiai, employee of Penguin Logistics, will clear out everything in the way using her guns.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            Is it really fine to trust her with any cargo?
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Attacks aerial enemies first
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt, Recruitment </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Ranged </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Physical Damage </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> DPS </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+
+                </div>
+            </div>
+
+
+            <!-- CASTERS SECTION -->
+            <div class = "type darkerBkg" id = "casters">
+                <!-- BANNER -->
+                <div class = "typeHeader">
+                    <p class = "typeBanner">CASTER</p>
+                    <p class = "typeDescription">
+                        Does ranged arts attacks. Usually have high DP cost compared to other operator classes. 
+                        They also generally have low HP and DEF.
+                    </p>
+                </div>
+
+                <!-- CARDS -->
+                <div class = "charCardsContainer">
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_213_mostma_epoque%235.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>幻象黑兔</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Mostima </p>
+                                        <p class = "charSub"> AoE/Splash Caster </p>
+                                        <p class = "charSub"> ☆☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Mostima, Senior Messenger, will lay low all obstacles in your path with her Arts.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            You'll have to find her first.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Deals AOE Arts damage
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt, Recruitment </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Ranged </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Arts Damage </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> AOE </p>
+                                            <p> Support </p>
+                                            <p> Crowd-Control </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+
+                </div>
+            </div>
+
+
+            <!-- SUPPORTER SECTION -->
+            <div class = "type darkBkg" id = "supporters">
+                <!-- BANNER -->
+                <div class = "typeHeader">
+                    <p class = "typeBanner">SUPPORTER</p>
+                    <p class = "typeDescription">
+                        Provides support through buffing, debuffing, and/or summoning. 
+                        Usually deals arts damage.
+                    </p>
+                </div>
+
+                <!-- CARDS -->
+                <div class = "charCardsContainer">
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_195_glassb_2.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>Skade</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Istina </p>
+                                        <p class = "charSub"> Slower/Decel Binder </p>
+                                        <p class = "charSub"> ☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Istina, member of Ursus Student Self-Governing Group, will beat the enemy with Originium Arts chosen from one of her books.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            Education is the key to life's riches.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Deals Arts damage and Slow the target for a short time
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt, Recruitment </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Ranged </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Arts Damage </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> DPS </p>
+                                            <p> Slow </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+
+                </div>
+            </div>
+
+
+            <!-- SPECIALIST SECTION -->
+            <div class = "type darkerBkg" id = "specialists">
+                <!-- BANNER -->
+                <div class = "typeHeader">
+                    <p class = "typeBanner">SPECIALIST</p>
+                    <p class = "typeDescription">
+                        Operators with specialized functionalities such as fast-deploy to eliminate a single 
+                        target. They are generally tactical-based operators rather than core operators.
+                    </p>
+                </div>
+
+                <!-- CARDS -->
+                <div class = "charCardsContainer">
+                    <!-- CARD -->
+                    <div class = "charCard">
+                        <div class = "charCardContent">
+                            <div class = "charCardImgContainer">
+                                <img src = "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_250_phatom_ghost%231.png" class = "charCardImg"/>
+                                <!-- <div class = "charCardImg"></div> -->
+                                <div class = "charCardArtist">
+                                    <p>Skade</p>
+                                </div>
+                            </div>
+                            <div class = "charCardDescription">
+                                <div class = "charCardDescriptionContent">
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Profile </p>
+                                        <p class = "charName"> Phantom </p>
+                                        <p class = "charSub"> Fast-Redeploy/Executor </p>
+                                        <p class = "charSub"> ☆☆☆☆☆☆ </p>
+                                    </div>
+                                    
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Description </p>
+                                        <p class = "charDescription">
+                                            Phantom, Rhodes Island Operator, melts into the night like a shadow.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Quote </p>
+                                        <p class = "charDescription">
+                                            If you're in a hurry, try calling his code name - he just might appear behind you.
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Operator Trait </p>
+                                        <p class = "charDescription">
+                                            Significantly reduced Redeployment Time
+                                        </p>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <table>
+                                            <tr>
+                                                <td class = "charTableHeader"> Availability </td>
+                                                <td class = "charDescription"> Headhunt </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Position </td>
+                                                <td class = "charDescription"> Melee </td>
+                                            </tr>
+                                            <tr>
+                                                <td class = "charTableHeader"> Attack Type </td>
+                                                <td class = "charDescription"> Physical Damage </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class = "charDescInfo">
+                                        <p class = "charCardHeading"> Tags </p>
+                                        <div class = "tags">
+                                            <p> Fast-Redeploy </p>
+                                            <p> Crowd-Control </p>
+                                            <p> DPS </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+
+                </div>
+            </div>
+
+            <!-- FIXED JUMP UP -->
+            <div id = "jumpUp">
+                <a href="#charHeader"><img src = "images/keyboard_double_arrow_up_black_36dp.svg" class = "svgWhite"/></a>
+            </div>
+
+
+            <!-- JS EDITED - FIXED ARTIST CARD -->
+            <div id = "artistCardContainer">
+                <div class = "artistCard" id = "artistCard"> <!-- the id was made for JS, class used mainly for CSS -->
+                    <div class = "artistProfile">
+
+                        <div class = "artistProfileContent">
+
+                            <!-- Test src: https://pbs.twimg.com/profile_images/1101555513731371008/MJZINyCW_400x400.png-->
+                            <img src = "" class = "artistProfileImg" />
+                            <div class = "artistText">
+                                <p class = "artistName">Name</p>
+                                <p class = "artistSub">Occupation</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class = "artistSocialMedia">
+
+                        <div class = "artistSocialMediaContentContainer">
+                            <table>
+                                <tr class = "artistPersonal">
+                                    <td class = "contactTableIcon">
+                                        <a><img src = "images/link_black_24dp.svg" class = "svgWhite"/></a>
+                                    </td>
+                                    <td class = "contactTableInfo"> <a>Personal/Main Page</a> </td>
+                                </tr>
+                                <tr class = "artistPixiv">
+                                    <td class = "contactTableIcon">
+                                        <a><img src = "images/pixiv_24dp.svg" class = "svgWhite"/></a>
+                                    </td>
+                                    <td class = "contactTableInfo"> <a>Pixiv</a> </td>
+                                </tr>
+                                <tr class = "artistTwitter">
+                                    <td class = "contactTableIcon">
+                                        <a><img src = "images/twitter_24dp.svg" class = "svgWhite"/></a>
+                                    </td>
+                                    <td class = "contactTableInfo"> <a>Twitter</a> </td>
+                                </tr>
+                                <tr class = "artistInstagram">
+                                    <td class = "contactTableIcon">
+                                        <a><img src = "images/instagram_24dp.svg" class = "svgWhite"/></a>
+                                    </td>
+                                    <td class = "contactTableInfo"> <a>Instagram</a> </td>
+                                </tr>
+                                <tr class = "artistWeibo">
+                                    <td class = "contactTableIcon">
+                                        <a><img src = "images/weibo_24dp.svg" class = "svgWhite"/></a>
+                                    </td>
+                                    <td class = "contactTableInfo"> <a>Weibo</a> </td>
+                                </tr>
+                                <tr class = "artistEmail">
+                                    <td class = "contactTableIcon">
+                                        <a><img src = "images/alternate_email_black_24dp.svg" class = "svgWhite"/></a>
+                                    </td>
+                                    <td class = "contactTableInfo"> <a>Email</a> </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div id = "artistCardCloseBtn">
+                        <img src = "images/close_black_24dp.svg" class = "svgWhite"/>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <!-- LEFTSIDE FOOTER (COMPANY) -->
+            <div id = "company">
+				<!-- <h3> Company </h3> -->
+                <img src = "https://static.wikia.nocookie.net/logopedia/images/6/62/HyperGryph_Logo.png" class = "svgWhite"/>
+				<hr>
+				<div id = "subtext">
+					<p>
+                        Based in Shanghai, China.
+                        <br/>
+                        Copyright 2022
+                    </p>
+				</div>
+			</div>
+
+            <!-- RIGHTSIDE FOOTER (SOCIAL MEDIA) -->
+            <div id = "socmedia">
+				<p>Social Media</p>
+				<div id = "socmediaIcons">
+					<a href="https://www.facebook.com/ArknightsGlobal/" target="_blank">
+						<img src="https://hrl.uncg.edu/uncgrha/wp-content/uploads/sites/83/2018/02/Facebook-PNG-Image-38915.png"/>
+					</a>
+	
+					<a href="https://www.instagram.com/arknights_messenger_official/" target="_blank">
+						<img src="https://freepngimg.com/thumb/instagram/62705-logo-sticker-computer-instagram-icons-download-hd-png.png"/>
+					</a>
+	
+					<a href="https://twitter.com/ArknightsEN" target="_blank">
+						<img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"/>
+					</a>
+	
+					<a href="https://www.youtube.com/channel/UCR0J2NYGuC8epsa1O4DMmXQ" target="_blank">
+						<img src="https://freepngimg.com/thumb/youtube/77799-logo-youtube-icon-png-file-hd.png"/>
+					</a>
+				</div>
+			</div>
+        </footer>
+    </body>
+</html>

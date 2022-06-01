@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> [Interest] Arknights Homepage </title>
+
+        <!-- JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- JavaScript File -->
+        <script src="js/external.js"></script>
+
+        
+        <!-- Media query for narrow browser width -->
+        <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+        <!-- Media query for medium browser width -->
+        <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+        <!-- Media query for full browser width -->
+        <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+
+        <!-- Prevent smartphones from scaling pages down -->
+        <meta name="viewport" content="initial-scale=1">
+
+        <style></style>
+    </head>
+
+    <body>
+        <header id = "indexHeader">
+            <!-- NAVIGATION BAR -->
+            <nav>
+                <div id = "navLogo">
+                    <img src = "images/logo_2.png"/>
+                </div>
+                <div id = "nav-right">
+                    <ul>
+                        <li>
+                            <a href = "index.html">
+                                <img src = "images/home_black_36dp.svg" class = "svgWhite"/>
+                                <p>Home</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "characters.html">
+                                <img src = "images/people_alt_black_36dp.svg" class = "svgWhite"/>
+                                <p>Characters</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "contact.html">
+                                <img src = "images/contact_mail_black_36dp.svg" class = "svgWhite"/>
+                                <p>Contact</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- HEADER CONTENT -->
+            <div id = "display">
+                <h1 id = "title"> Arknights </h1>
+                <div id = "sub">
+                    <p> Available on </p>
+                    <a href = "https://www.bignox.com/appcenter/game_management/play-arknights-on-pc-with-noxplayer/">
+                        <img src = "images/windows.png" class = "deviceIcon"></a>
+                    <a href = "https://apps.apple.com/us/app/arknights/id1464872022">
+                        <img src = "images/app_store.png" class = "deviceIcon"></a>
+                    <a href = "https://play.google.com/store/apps/details?id=com.YoStarEN.Arknights&hl=en_US&gl=US">
+                        <img src = "images/google_play.png" class = "deviceIcon"></a>
+                </div>
+            </div>
+        </header>
+
+        <section id = "indexSection">
+            <!-- STORY SECTION -->
+            <div id = "story">
+                <!-- TEXT -->
+                <div id = "storyText">
+                    <h2>Story</h2>
+                    <p>
+                        Take on the role of a key member of Rhodes Island, 
+                        a pharmaceutical company that fights both a deadly 
+                        infection and the unrest it leaves in its wake. 
+                        Together with your leader Amiya, you'll recruit Operators, train them, 
+                        then assign them to various operations to protect the innocent and resist 
+                        those who would thrust the world into turmoil.
+                    </p>
+                </div>
+
+                <!-- MEDIA -->
+                <div id = "storyMedia">
+                    <div> 
+                        <img src = "https://gamepress.gg/arknights/sites/arknights/files/2021-02/avg_31_2.png"/>
+
+                        <!-- JS EDITED: CAPTION -->
+                        <div id = "storyMediaOverlay">
+                            <div id = "storyMediaCaption">
+                                <h3>Stage 4-2</h3>
+                                <p>Character Ch'en and an infected girl</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- FEATURES SECTION -->
+            <div id = "ft">
+                <!-- TEXT -->
+                <div id =  "ftText">
+                    <h2>Features</h2>
+                </div>
+
+                <!-- FEATURE CARDS -->
+                <div id = "ftCards">
+                    <div class = "ftCard">
+                        <div>
+                            <img src = "images/Reunion_Movement_Black.png" class = "svgWhite ftImg"/> <!-- JS EDITED - added .ftImg -->
+                            <h3> Immersive Storyline </h3>
+                            <p>
+                                Engaging and action-filled chapters that continiously
+                                keeps players on their toes for new content and updates.
+                            </p>
+
+                            <!-- JS EDITED -->
+                            <div class = "ftCardContentOverlay">
+                                <img src = "images/Reunion_Movement_Black.png" class = "svgWhite ftCardThumbnail"/> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class = "ftCard">
+                        <div>
+                            <img src = "images/Rhodes_Island_Black.png" class = "svgWhite ftImg"/>
+                            <h3> Tower Defense Gameplay </h3>
+                            <p>
+                                RPG and strategic tower-defense style gameplay with a wide 
+                                multitude of characters, differing in class and 
+                                playstyles.
+                            </p>
+
+                            <!-- JS EDITED -->
+                            <div class = "ftCardContentOverlay">
+                                <img src = "images/Rhodes_Island_Black.png" class = "svgWhite ftCardThumbnail"/> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "ftCard">
+                        <div>
+                            <img src = "images/originium_Low_Black.png" class = "svgWhite ftImg"/>
+                            <h3> Events </h3>
+                            <p> 
+                                Limited-time characters and stories. Earn medals, upgrade 
+                                material, and originium from the event gameplay, 
+                                and enjoy increased drop rates of rare items.
+                            </p>
+
+                            <!-- JS EDITED -->
+                            <div class = "ftCardContentOverlay">
+                                <img src = "images/originium_Low_Black.png" class = "svgWhite ftCardThumbnail"/> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "ftCard">
+                        <div>
+                            <img src = "images/soundtrack_Black.png" class = "svgWhite ftImg"/>
+                            <h3> Soundtracks </h3>
+                            <p> 
+                                Well-developed OSTs and characters voiced by known 
+                                Chinese and Japanese VAs.
+                            </p>
+
+                            <!-- JS EDITED -->
+                            <div class = "ftCardContentOverlay">
+                                <img src = "images/soundtrack_Black.png" class = "svgWhite ftCardThumbnail"/> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <!-- LEFTSIDE FOOTER (COMPANY) -->
+            <div id = "company">
+				<!-- <h3> Company </h3> -->
+                <img src = "https://static.wikia.nocookie.net/logopedia/images/6/62/HyperGryph_Logo.png" class = "svgWhite"/>
+				<hr>
+				<div id = "subtext">
+					<p>
+                        Based in Shanghai, China.
+                        <br/>
+                        Copyright 2022
+                    </p>
+				</div>
+			</div>
+
+            <!-- RIGHTSIDE FOOTER (SOCIAL MEDIA) -->
+            <div id = "socmedia">
+				<p>Social Media</p>
+				<div id = "socmediaIcons">
+					<a href="https://www.facebook.com/ArknightsGlobal/" target="_blank">
+						<img src="https://hrl.uncg.edu/uncgrha/wp-content/uploads/sites/83/2018/02/Facebook-PNG-Image-38915.png"/>
+					</a>
+	
+					<a href="https://www.instagram.com/arknights_messenger_official/" target="_blank">
+						<img src="https://freepngimg.com/thumb/instagram/62705-logo-sticker-computer-instagram-icons-download-hd-png.png"/>
+					</a>
+	
+					<a href="https://twitter.com/ArknightsEN" target="_blank">
+						<img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"/>
+					</a>
+	
+					<a href="https://www.youtube.com/channel/UCR0J2NYGuC8epsa1O4DMmXQ" target="_blank">
+						<img src="https://freepngimg.com/thumb/youtube/77799-logo-youtube-icon-png-file-hd.png"/>
+					</a>
+				</div>
+			</div>
+        </footer>
+    </body>
+</html>
